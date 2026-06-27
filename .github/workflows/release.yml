@@ -13,10 +13,9 @@ jobs:
 
       - name: Create zip
         run: |
-          zip -r LeadingTiger9.ReusableKeyCard.zip \
-            manifest.json \
-            project.json \
-            content/
+          mkdir -p LeadingTiger9.ReusableKeyCard
+          cp -r manifest.json project.json content/ LeadingTiger9.ReusableKeyCard/
+          zip -r LeadingTiger9.ReusableKeyCard.zip LeadingTiger9.ReusableKeyCard/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
