@@ -1,0 +1,53 @@
+{
+	"tempHash": "004760B27C58269E",
+	"tbluHash": "00599C37E9A7E116",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9e15dc58261c307d",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"AnimEvent_Generic00",
+						"ConsumeFromInventory"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9e15dc58261c307d",
+				{
+					"RemoveEventConnection": [
+						"ItemUsed",
+						"SetItem",
+						"a7f21f651a580f82"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c443c249b3709f64",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"AnimEvent_Generic00",
+						"ConsumeFromInventory"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c443c249b3709f64",
+				{
+					"RemoveEventConnection": [
+						"ItemUsed",
+						"SetItem",
+						"a7f21f651a580f82"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

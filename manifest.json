@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+    "version": "1.2.1",
+    "id": "LeadingTiger9.ReusableKeyCard",
+    "name": "Reusable Key Card",
+    "description": "A simple mod designed to make the Electronic Key Hacker Mk III Reusable. Renamed to Reusable Key Card. Also works in Freelancer, with an option of using the collector's lockpick as well.",
+    "authors": ["LeadingTiger9"],
+    "contentFolders": ["content"],
+    "frameworkVersion": "2.33.34",
+    "thumbs": ["ConsoleCmd OnlineResources_Disable 1"],
+    "localisationOverrides": {
+		"008322D98E1CFE04": {
+			"english": {
+				"1918188838": "Reusable Key Card",
+				"667152244": "New Technology makes the Mk III Key Hacker Infinitely Reusable"
+			}
+		}
+	}
+}
